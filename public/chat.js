@@ -12,10 +12,7 @@ let userStream;
 
 // Contains the stun server URL we will be using.
 let iceServers = {
-	iceServers: [
-		{ urls: "stun:stun.services.mozilla.com" },
-		{ urls: "stun:stun.l.google.com:19302" },
-	],
+	iceServers: [{ urls: "stun:192.46.208.167:3478" }],
 };
 
 joinButton.addEventListener("click", function () {
